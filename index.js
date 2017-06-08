@@ -2,14 +2,15 @@ const EventEmitter = require('events')
 
 class Ohayo extends EventEmitter {
 
-  constructor(opts = {}){
+  constructor(opts = {}) {
+    super()
     // set parameters
     this.tick = opts.tick || 1000
     this.timeout = opts.timeout || this.tick * 3
     this.start()
   }
 
-  function start () {
+  start () {
     // clear any previously running interval
     this.stop()
     // start interval
@@ -19,12 +20,12 @@ class Ohayo extends EventEmitter {
     if (this.intervalId.unref) this.intervalId.unref()
   }
 
-  function stop () {
+  stop () {
     // stop the active interval
     clearInterval(this.intervalId)
   }
 
-  function _runClock () {
+  _runClock () {
     const now = Date.now()
     const duration = now - this.lastTick
     if (duration > this.timeout) {

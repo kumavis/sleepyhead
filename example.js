@@ -1,5 +1,9 @@
-var awake = require('on-wake-up')
+const Ohayo = require('./index')
 
-awake(function () {
+const ohayo = new Ohayo()
+ohayo.on('woke', () => {
   console.log('computer woke from sleep')
 })
+
+// force process awake for example purposes
+setInterval(function(){}, Number.POSITIVE_INFINITY)
