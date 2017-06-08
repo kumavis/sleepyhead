@@ -1,5 +1,7 @@
 # ohayo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kumavis/ohayo.svg)](https://greenkeeper.io/)
+
 Good morning sleepy head! This module is an event emitter that emits 'woke' when your computer wakes up from sleep.
 
 ```
