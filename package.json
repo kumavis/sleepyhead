@@ -1,0 +1,21 @@
+{
+  "name": "ohayo",
+  "version": "1.0.0",
+  "description": "Good morning sleepy head! This module is an event emitter that emits 'woke' when your computer wakes up from sleep.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumavis/ohayo.git"
+  },
+  "author": "kumavis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumavis/ohayo/issues"
+  },
+  "homepage": "https://github.com/kumavis/ohayo#readme"
+}
