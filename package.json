@@ -1,6 +1,6 @@
 {
   "name": "ohayo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Good morning sleepy head! This module is an event emitter that emits 'woke' when your computer wakes up from sleep.",
   "main": "index.js",
   "dependencies": {},
