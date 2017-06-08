@@ -34,3 +34,5 @@ class Ohayo extends EventEmitter {
   }
 
 }
+
+module.exports = Ohayo
