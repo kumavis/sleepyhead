@@ -1,6 +1,6 @@
 const EventEmitter = require('events')
 
-class Ohayo extends EventEmitter {
+class Sleepyhead extends EventEmitter {
 
   constructor(opts = {}) {
     super()
@@ -36,4 +36,4 @@ class Ohayo extends EventEmitter {
 
 }
 
-module.exports = Ohayo
+module.exports = Sleepyhead

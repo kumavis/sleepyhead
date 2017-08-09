@@ -1,19 +1,19 @@
-# ohayo
+# sleepyhead
 
 Good morning sleepy head! This module is an event emitter that emits 'woke' when your computer wakes up from sleep.
 
 ```
-npm install --save ohayo
+npm install --save sleepyhead
 ```
 
 ## Usage
 
 ``` js
-const Ohayo = require('ohayo')
+const Sleepyhead = require('sleepyhead')
 
-const ohayo = new Ohayo({ tick: 10*1e3, timeout: 100*1e3 })
-ohayo.on('woke', () => {
-  console.log('ohayo gozaimasu!')
+const sleepyhead = new Sleepyhead({ tick: 10*1e3, timeout: 100*1e3 })
+sleepyhead.on('woke', () => {
+  console.log('good morning!')
 })
 ```
 
